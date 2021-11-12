@@ -15,7 +15,7 @@ public class Program {
         String nascimento = sc.nextLine();
 
         membros membro = new membros(name,nascimento);
-        System.out.print(membro.getIdade());
+        System.out.print("O membro: " + membro.getName() + " Tem " + membro.getIdade() + " Anos de idade");
 
         sc.close();
     }
